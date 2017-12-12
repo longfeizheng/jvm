@@ -1,4 +1,4 @@
-package cn.merryyou.chapter03_8;
+package cn.merryyou.chapter03_08;
 
 /**
  * 方法静态分派演示
