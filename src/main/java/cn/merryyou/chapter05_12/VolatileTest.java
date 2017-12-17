@@ -18,12 +18,17 @@ public class VolatileTest {
     }
 
     public static void main(String[] args) {
+        System.out.println("https://longfeizheng.github.io");
+
         Thread[] thread = new Thread[THREADS_COUNT];
 
         for (int i = 0; i < THREADS_COUNT; i++) {
-            thread[i] = new Thread(() -> {
-                for (int j = 0; j < 10000; j++) {
-                    increase();
+            thread[i] = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    for (int j = 0; j < 10000; j++) {
+                        increase();
+                    }
                 }
             });
             thread[i].start();

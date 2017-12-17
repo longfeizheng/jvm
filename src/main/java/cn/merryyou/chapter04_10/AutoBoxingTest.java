@@ -10,6 +10,8 @@ package cn.merryyou.chapter04_10;
  */
 public class AutoBoxingTest {
     public static void main(String[] args) {
+        System.out.println("https://longfeizheng.github.io");
+
         Integer a = 1;
         Integer b = 2;
         Integer c = 3;

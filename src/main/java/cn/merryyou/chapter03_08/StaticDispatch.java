@@ -11,6 +11,8 @@ package cn.merryyou.chapter03_08;
 public class StaticDispatch {
 
     public static void main(String[] args) {
+        System.out.println("https://longfeizheng.github.io");
+
         Human man = new Man();
         Human woman = new Woman();
         StaticDispatch sr = new StaticDispatch();
